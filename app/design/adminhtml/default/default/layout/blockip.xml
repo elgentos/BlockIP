@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_sales_order_view>
+        <reference name="left">
+            <reference name="sales_order_tabs">
+                <reference name="order_tab_info">
+                    <block type="blockip/adminhtml_sales_order_view_info" name="order_info"></block>
+                </reference>
+            </reference>
+        </reference>
+    </adminhtml_sales_order_view>
+
+    <blockip_adminhtml_index_index>
+        <reference name="content">
+            <block type="blockip/adminhtml_index" name="index" />
+        </reference>
+    </blockip_adminhtml_index_index>
+
+    <blockip_adminhtml_index_addform>
+        <reference name="content">
+            <block type="blockip/adminhtml_index_add" name="add" />
+        </reference>
+    </blockip_adminhtml_index_addform>
+</layout>
